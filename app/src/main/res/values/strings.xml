@@ -7,6 +7,8 @@
     <string name="open_drawer">Open Drawer</string>
     <string name="close_drawer">Close Drawer</string>
     <string name="preference_file_name">BookHub Preferences</string>
+    <string name="csi_about_us">The <strong>Computer Society of India (CSI)</strong> Club at VIT-AP, began as one of the initial clubs and chapters at <strong>VIT-AP</strong>, that could provide students to work
+    on computer science subjects , but beyond the classroom level.The students/members are given the training and requirements to sharpen their roles in the field of technology</string>
 
     <string name="Electronics">https://firebasestorage.googleapis.com/v0/b/vitap-bookhub-4f07c.appspot.com/o/Electronics</string>
 

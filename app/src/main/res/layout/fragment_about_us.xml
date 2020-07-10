@@ -27,8 +27,19 @@
             />
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="500dp"
+            android:layout_height="250dp"
             android:src="@drawable/csi_logo"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/Black"
+            android:textSize="22sp"
+            android:autoSizeTextType="uniform"
+            android:textAlignment="center"
+            android:background="@drawable/relative_layout_box"
+            android:text="@string/csi_about_us"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

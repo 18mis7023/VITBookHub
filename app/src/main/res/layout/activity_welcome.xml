@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:fontFamily="@font/averia_libre_bold_italic"
-        android:text="WELCOME TO VITAP BOOKHUB"
+        android:text="WELCOME TO BOOKHUB"
         android:textAlignment="center"
         android:textColor="#101010"
         android:textSize="40sp"
