@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BookHub</string>
+    <string name="app_name">VIT-AP BookHub</string>
     <string name="dashboard">Home</string>
     <string name="favourites">Favourites</string>
     <string name="about_us">About Us</string>
@@ -22,4 +22,22 @@
     <string name="companies">Companies</string>
     <string name="sign_in_with_google">Sign In With Google</string>
     <string name="no_favorites">you do not have any Favorite Books</string>
+    <string name="disclaimer"><u>Disclaimer :</u> Kindly Login with VITAP Mail Id for more Benifits</string>
+  <!--  <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="interstital_ad_id">ca-app-pub-1409740956000659/5313945860</string>
+    <string name="banner1adview">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner2adview">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner3adview">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner4adview">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner5adview">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner6adview">ca-app-pub-3940256099942544/6300978111</string>
+-->
+    <string name="admob_app_id">ca-app-pub-6555297486385984~6935198654</string>
+    <string name="interstital_ad_id">ca-app-pub-1409740956000659/5313945860</string>
+    <string name="banner1adview">ca-app-pub-6555297486385984/1679776624</string>
+    <string name="banner2adview">ca-app-pub-6555297486385984/8079386216</string>
+    <string name="banner3adview">ca-app-pub-6555297486385984/2140663827</string>
+    <string name="banner4adview">ca-app-pub-6555297486385984/3009950410</string>
+    <string name="banner5adview">ca-app-pub-6555297486385984/1505297050</string>
+    <string name="banner6adview">ca-app-pub-6555297486385984/5252970373</string>
 </resources>

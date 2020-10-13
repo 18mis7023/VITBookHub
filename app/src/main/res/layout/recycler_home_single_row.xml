@@ -15,7 +15,6 @@
             android:layout_height="170dp"
             android:layout_weight="2.1"
             android:background="@drawable/relative_layout_box"
-            android:src="@drawable/linearalgebra_gilbert_strang"
             android:scaleType="centerCrop"
             android:padding="5dp"
             android:layout_margin="5dp"/>

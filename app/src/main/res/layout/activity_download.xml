@@ -1,10 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/download_image"
     tools:context=".Activity.Books.DownloadActivity">
+    <ImageView
+        android:id="@+id/imgdownload"
+        android:layout_width="wrap_content"
+        android:layout_height="620dp"/>
+    <Button
+        android:id="@+id/recyclerdownload"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:textColor="@color/brown"
+        android:text="Download"
+        android:textSize="24dp"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:background="@drawable/box_login"
+        android:layout_alignParentBottom="true"
+        android:drawableLeft="@drawable/ic_download_icon_foreground"
 
-</LinearLayout>
+        />
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:id="@+id/btnviewdrive"
+        android:layout_alignParentRight="true"
+        android:padding="5dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/ic_google_drive"/>
+
+    <!--<com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner1adview"/>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner2adview"/>-->
+
+
+</RelativeLayout>

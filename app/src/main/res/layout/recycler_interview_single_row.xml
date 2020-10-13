@@ -54,20 +54,40 @@
                 android:autoSizeTextType="uniform"
                 android:autoSizeMaxTextSize="20dp"
                 android:textColor="#636161"/>
+            <Button
+                android:id="@+id/recyclerdownload"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:textColor="@color/brown"
+                android:text="Download"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:background="@drawable/box_login"
+                android:layout_below="@+id/txtlabeldiff"
+                android:drawableLeft="@drawable/ic_download_icon_foreground"
+
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/btnviewdrive"
+                android:layout_alignRight="@+id/btnDownload"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/txtdiff"
+                android:padding="5dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/ic_google_drive"/>
+<!--            <com.github.barteksc.pdfviewer.PDFView-->
+<!--                android:id="@+id/pdfView"-->
+<!--                android:layout_width="80dp"-->
+<!--                android:layout_height="70dp"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:layout_below="@+id/txtdiff"-->
+<!--                android:background="@color/colorAccent"-->
+<!--                />-->
         </RelativeLayout>
 
-        <Button
-            android:id="@+id/recyclerdownload"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/brown"
-            android:text="Download"
-            android:textSize="24dp"
-            android:textAlignment="center"
-            android:background="@drawable/box_login"
-            android:layout_below="@+id/txtlabeldiff"
 
-            />
        <!-- <Button
             android:id="@+id/btnfavorite"
             android:layout_width="wrap_content"

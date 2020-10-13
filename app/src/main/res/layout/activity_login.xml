@@ -13,17 +13,17 @@
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:layout_marginTop="100dp"
-        android:src="@drawable/book_welcome_icon"
+        android:src="@drawable/book_icon_logo_no_description"
         android:contentDescription="App image icon"/>
     <TextView
         android:id="@+id/txtappname"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:text="BOOKHUB"
+        android:layout_height="60dp"
+        android:text="VIT-AP BOOKHUB"
         android:autoSizeTextType="uniform"
-        android:autoSizeMaxTextSize="50sp"
+        android:autoSizeMaxTextSize="40sp"
         android:textStyle="bold"
-        android:textSize="38sp"
+        android:textSize="30sp"
 
         android:textAlignment="center"
         android:textColor="#000000"
@@ -50,6 +50,21 @@
         android:autoSizeTextType="uniform"
         android:drawableStart="@drawable/ic_flat_color_icons_google"
         />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:textAlignment="center"
+            android:layout_marginTop="100dp"
+            android:layout_below="@+id/btngoolgesignin"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/colorAccent"
+            android:text="@string/disclaimer"
+            android:layout_marginBottom="10dp"
+            />
+
     </RelativeLayout>
     <!--<TextView
         android:layout_width="match_parent"
